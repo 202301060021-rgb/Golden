@@ -6,7 +6,7 @@ export const birthday = {
   showMemories: true,
   showUniverse: true,
   showFinalSurprise: true,
-  audioSrc: '/audio/our-song.mp3',
+  audioSrc: `${import.meta.env.BASE_URL}audio/our-song.mp3`,
   opening: {
     eyebrow: 'A little something, just for you',
     title: 'A day made\nfor you.',
