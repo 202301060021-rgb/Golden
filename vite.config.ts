@@ -8,7 +8,7 @@ const projectRoot = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   // GitHub Pages serves this project at /web/. Keep local builds path-relative.
-  base: process.env.GITHUB_ACTIONS ? '/web/' : './',
+  base: process.env.GITHUB_ACTIONS ? '/Golden/' : './',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: { '@': path.resolve(projectRoot, 'src') },
